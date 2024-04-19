@@ -6,7 +6,7 @@ import viteLogo from "/vite.svg";
 function App() {
   const [count, setCount] = useState(0);
   const a = 1;
-  let b = "feature/app";
+  let b = "feature/app!!";
   return (
     <>
       <h1>commit {a}</h1>
