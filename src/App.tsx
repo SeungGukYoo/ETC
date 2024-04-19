@@ -5,10 +5,10 @@ import viteLogo from "/vite.svg";
 
 function App() {
   const [count, setCount] = useState(0);
-
+  const a = 1;
   return (
     <>
-      <h1>commit 1</h1>
+      <h1>commit {a}</h1>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
